@@ -4,7 +4,7 @@ import { PlusIcon, BellIcon, CalendarIcon, UserIcon, MagnifyingGlassIcon,
 
 function UserProfile() {
   return (
-    <div className="w-96 border-l border-gray-200 bg-white h-screen flex flex-col">
+    <div className="w-80 lg:w-96 border-l border-gray-200 bg-white h-screen flex flex-col">
       {/* Scrollable Content */}
       <div className="flex-1 overflow-y-auto">
         <div className="p-6 space-y-6">

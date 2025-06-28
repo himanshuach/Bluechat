@@ -5,7 +5,7 @@ function Sidebar() {
   const [activeTab, setActiveTab] = useState('messages');
 
   return (
-    <div className="w-96 border-r border-gray-200 flex flex-col bg-white h-screen">
+    <div className="w-80 lg:w-96 border-r border-gray-200 flex flex-col bg-white h-screen">
       {/* Fixed Header */}
       <div className="flex-shrink-0">
         {/* Header */}

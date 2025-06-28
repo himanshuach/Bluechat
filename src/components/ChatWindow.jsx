@@ -2,7 +2,7 @@ import { PaperAirplaneIcon, PaperClipIcon, FaceSmileIcon } from '@heroicons/reac
 
 function ChatWindow() {
   return (
-    <div className="w-[calc(100%-784px)] flex flex-col bg-white h-screen">
+    <div className="flex-1 flex flex-col bg-white h-screen">
       {/* Fixed Header */}
       <div className="flex-shrink-0 px-6 py-4 border-b bg-white">
         <div className="flex items-center gap-3">
