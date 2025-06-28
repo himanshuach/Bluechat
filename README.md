@@ -1,6 +1,7 @@
 # BlueChat
 
 BlueChat is a modern, responsive chat interface built with React. It features a sidebar for chat navigation and segmentation, a main chat window for real-time messaging, and a user profile panel with detailed information and actions. The UI is styled with Tailwind CSS and leverages Material UI and Heroicons for a polished look.
+
 ![image](https://github.com/user-attachments/assets/41954c7a-cfc6-44c8-843d-3db9014e5f8e)
 
 ## Features
