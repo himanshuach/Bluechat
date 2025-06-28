@@ -1,3 +1,68 @@
+# BlueChat
+
+BlueChat is a modern, responsive chat interface built with React. It features a sidebar for chat navigation and segmentation, a main chat window for real-time messaging, and a user profile panel with detailed information and actions. The UI is styled with Tailwind CSS and leverages Material UI and Heroicons for a polished look.
+
+## Features
+
+- **Sidebar**
+  - Switch between "Messages" and "Segments" tabs.
+  - View recent chats with avatars, message previews, and platform indicators (Messenger, WhatsApp, Instagram).
+  - Segment users by behavior (e.g., Abandoned Cart, First Time Visitors, Regular Customers).
+- **Chat Window**
+  - Conversational message display.
+  - Fixed header with chat participant info and status.
+  - Scrollable message area.
+  - Input area with attachment, emoji, and send options.
+- **User Profile**
+  - User avatar, name, location, and local time.
+  - Action buttons for call, video, and more.
+  - Stats cards for revenue and web visits.
+  - Information section (segment, email, phone, last visited).
+  - Tag management.
+
+## Tech Stack
+
+- React (Create React App)
+- Tailwind CSS
+- Material UI
+- Heroicons
+- React Router
+
+## Getting Started
+
+### Prerequisites
+- Node.js (v14 or higher recommended)
+- npm
+
+### Installation
+
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+2. Start the development server:
+   ```bash
+   npm start
+   ```
+3. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+### Scripts
+- `npm start` – Run the app in development mode.
+- `npm test` – Launch the test runner.
+- `npm run build` – Build for production.
+- `npm run eject` – Eject configuration (not recommended for most users).
+
+## File Structure
+
+- `src/components/Sidebar.jsx` – Sidebar navigation and segmentation.
+- `src/components/ChatWindow.jsx` – Main chat interface.
+- `src/components/UserProfile.jsx` – User profile and details panel.
+- `src/App.js` – Main layout combining all components.
+
+## License
+
+This project is for demonstration and educational purposes.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
